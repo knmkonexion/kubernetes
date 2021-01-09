@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./kustomization.yaml
+  path: ./workflow-manager
   prune: true
   sourceRef:
     kind: GitRepository
