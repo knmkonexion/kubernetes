@@ -2,6 +2,7 @@ apiVersion: image.fluxcd.io/v1alpha1
 kind: ImageRegistry
 metadata:
   name: web-app-image
+  namespace: flux-system
 spec:
   image: knmkonexion/nginx-web
   interval: 1m0s

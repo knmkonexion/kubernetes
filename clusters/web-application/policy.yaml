@@ -2,6 +2,7 @@ apiVersion: image.fluxcd.io/v1alpha1
 kind: ImagePolicy
 metadata:
   name: web-app-policy
+  namespace: flux-system
 spec:
   imageRepositoryRef:
     name: web-app-image
