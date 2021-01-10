@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-web
-        image: knmkonexion/nginx-web:latest
+        image: knmkonexion/nginx-web:dev-0.0.1
         ports:
         - containerPort: 80
 ---
