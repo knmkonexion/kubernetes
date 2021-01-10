@@ -1,0 +1,11 @@
+apiVersion: image.toolkit.fluxcd.io/v1alpha1
+kind: ImagePolicy
+metadata:
+  name: web-application
+  namespace: flux-system
+spec:
+  imageRepositoryRef:
+    name: web-application
+  policy:
+    semver:
+      range: 1.0.x
