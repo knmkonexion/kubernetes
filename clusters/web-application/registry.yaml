@@ -1,5 +1,5 @@
 apiVersion: image.fluxcd.io/v1alpha1
-kind: ImageRepository
+kind: ImageRegistry
 metadata:
   name: web-app-image
 spec:
