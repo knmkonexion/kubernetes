@@ -5,6 +5,7 @@ metadata:
   namespace: registry
   labels:
     app: registry
+    purpose: local-container-registry
 spec:
   selector:
     matchLabels:
